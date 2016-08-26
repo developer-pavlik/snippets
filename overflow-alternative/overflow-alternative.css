@@ -1,0 +1,15 @@
+.overflow-alternative {
+  display: table;
+}
+
+/* line 28, ../../../markup-new/scss/all/_another.scss */
+.overflow-alternative:after {
+  content: '. .';
+  display: block;
+  word-spacing: 99in;
+  height: 0;
+  overflow: hidden;
+  /* Лекарство бага с оступом в Opera */
+  font-size: 0.13em;
+  line-height: 0;
+}
