@@ -6,3 +6,26 @@ $('.js-shop-slider').slick({
 });
 
 
+$('.js-big-slider').slick({
+    infinite: true,
+    autoplay:true,
+    autoplaySpeed:1500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: true,
+    appendDots: $('.big-slider__pagination')
+});
+
+
+$('.js-big-slider').slick({    
+    dots: true,
+    appendDots: $('.big-slider__pagination'),
+    customPaging: function(slider, i) {
+      // this example would render "tabs" with titles
+      return '<span class="dot"></span>';
+    },
+    dotsClass:'имя класса обложки'
+});
+
+
