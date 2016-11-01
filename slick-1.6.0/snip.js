@@ -29,3 +29,7 @@ $('.js-big-slider').slick({
 });
 
 
+////Всякие команы для сбороса
+
+$('.block').slick('refresh');
+$('.block').slick('reinit');
