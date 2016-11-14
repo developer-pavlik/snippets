@@ -1,7 +1,15 @@
 if ($('.js-city-select-input').length) {
     $(".js-city-select-input").select2({
         dropdownCssClass: "custom-city-select-dropdown",
-    })
+    });
+    
+    
+    
+    $(".js-city-select-input").select2({
+        theme: "name-theme",
+        minimumResultsForSearch: Infinity
+
+    });
 
     $(".js-city-select-input").on("select2:open", function () {
         if (!$('.custom-city-select-dropdown .select2-results').hasClass('mCustomScrollbar')) {
