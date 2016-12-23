@@ -1,0 +1,7 @@
+mixin custom-select(data)
+    +b.custom-select()&attributes(attributes)
+        select.js-select(data-placeholder= data.placeholder) <= ключивой атрибут
+            option
+            option(disabled="disabled")= data.placeholder
+            each item, index in data.optons
+                option(value= index + 1)= item

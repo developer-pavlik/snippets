@@ -1,0 +1,14 @@
+http://codepen.io/josephting/pen/LsDbG
+http://codepen.io/masonfox/pen/XjbjBq
+http://codepen.io/MJLim/pen/QwPmpJ
+http://codepen.io/jgliesman/pen/jEKGxG
+
+<div class="custom-select">
+    <select class="js-select" data-placeholder="Выбрать клуб">
+      <option></option>
+      <option disabled="disabled">Выбрать клуб</option>
+      <option value="1">Оскар Ярд «Рублевка»</option>
+      <option value="2">Оскар Ярд «Пушкинская»</option>
+      <option value="3">Оскар Ярд «Космос»</option>
+    </select>
+</div>
