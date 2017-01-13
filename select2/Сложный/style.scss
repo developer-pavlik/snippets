@@ -1,0 +1,56 @@
+.select2-container--buy-select {
+    width: 100% !important;
+
+    .select2-selection--single {
+        height: rem(40);
+
+        border: 1px solid #d8d8d8;
+        border-radius: rem(3);
+        outline: none;
+    }
+
+    .select2-selection__rendered {
+        padding-right: rem(35) !important;
+
+        line-height: inherit;
+    }
+
+    .custom-select-big-data {
+        margin-right: rem(7);
+
+        font-size: rem(20);
+        line-height: rem(40);
+        color: #3a3a3a;
+    }
+
+    .custom-select-sub-data {
+        font-size: rem(12);
+        color: #8e8e93;
+        letter-spacing: rem(1);
+    }
+
+    .select2-selection__arrow {
+        position: absolute;
+        top: rem(16);
+        right: rem(15);
+
+        width: rem(6);
+        height: rem(6);
+
+        border-bottom: 1px solid #6d6d72;
+        border-left: 1px solid #6d6d72;
+        transform: rotate(-45deg);
+
+        transition: transform .5s, top .5s;
+    }
+
+    &.select2-container--open {
+        .select2-selection__arrow {
+            top: rem(20);
+
+            transform: rotate(135deg);
+        }
+    }
+}
+
+

@@ -1,0 +1,7 @@
+mixin custom-select(data)
+    +b.custom-select()&attributes(attributes)
+        select.js-custom-select
+            each item, ind in data.items
+                option(data-sub-info="Доп инфо" value="1") Текст селекта1 
+                option(data-sub-info="Доп инфо" value="2") Текст селекта2 
+                option(data-sub-info="Доп инфо" value="3") Текст селекта3 
