@@ -33,3 +33,8 @@ $('.js-big-slider').slick({
 
 $('.block').slick('refresh');
 $('.block').slick('reinit');
+
+//{
+//    breakpoint: 767,
+//    settings: "unslick"
+//}
