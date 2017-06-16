@@ -38,3 +38,5 @@ $('.block').slick('reinit');
 //    breakpoint: 767,
 //    settings: "unslick"
 //}
+
+//https://jsfiddle.net/simeydotme/9nm4ctv9/
