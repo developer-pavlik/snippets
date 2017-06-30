@@ -11,3 +11,13 @@ ol{
         }
     }
 }
+
+ul{
+    counter-reset: item;
+    li{
+        &:after{
+            content: counter(item, decimal-leading-zero) " ";
+            counter-increment: item;
+        }
+    }
+}
