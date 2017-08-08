@@ -109,6 +109,15 @@ if ($('#claims-map').length) {
         });
                 
         claimsMap.geoObjects.add(claimPoint);
+        
+        
+        //Если надо открыть балун по дефолту
+        mersedesPoint.balloon.open();
+        
+        
+        // берем балун из HTML из лендмнга мерседесов
+        var htmlTemplate = $('.map__custom-baloon').prop('outerHTML');       
+        var customBalloonTemplate = ymaps.templateLayoutFactory.createClass(htmlTemplate);
 
        
         // Добавления супер метки
